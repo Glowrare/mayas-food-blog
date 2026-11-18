@@ -9,8 +9,8 @@ const AllPostsPage = (props) => {
   return (
     <Fragment>
       <Head>
-        <title>View All Posts</title>
-        <meta name='description' content='A list of all food recipe blog posts.' />
+        <title>All Recipes | Maya's Kitchen Notes</title>
+        <meta name='description' content='A list of weeknight recipes and simple nutrition notes from Maya Reyes.' />
       </Head>
       <AllPosts posts={posts} />
     </Fragment>

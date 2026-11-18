@@ -5,25 +5,25 @@
 }
 
 body {
-  --color-grey-50: hsl(265, 55%, 96%);
-  --color-grey-100: hsl(265, 19%, 88%);
-  --color-grey-200: hsl(265, 7%, 70%);
-  --color-grey-300: hsl(265, 6%, 66%);
-  --color-grey-400: hsl(265, 4%, 57%);
-  --color-grey-500: hsl(265, 3%, 53%);
-  --color-grey-600: hsl(265, 4%, 42%);
-  --color-grey-700: hsl(265, 4%, 31%);
-  --color-grey-800: hsl(276, 5%, 20%);
-  --color-grey-900: hsl(280, 5%, 13%);
+  --color-grey-50: hsl(39, 50%, 97%);
+  --color-grey-100: #f6eddc;
+  --color-grey-200: hsl(288, 10%, 74%);
+  --color-grey-300: hsl(39, 22%, 76%);
+  --color-grey-400: hsl(288, 10%, 48%);
+  --color-grey-500: hsl(288, 10%, 42%);
+  --color-grey-600: hsl(288, 12%, 34%);
+  --color-grey-700: hsl(288, 14%, 26%);
+  --color-grey-800: hsl(288, 16%, 20%);
+  --color-grey-900: #2b202e;
 
-  --color-primary-50: #c8b3ce;
-  --color-primary-100: #a07aaa;
-  --color-primary-200: #884c97;
-  --color-primary-300: #843897;
-  --color-primary-400: #732392;
-  --color-primary-500: #5a097a;
-  --color-primary-600: #480264;
-  --color-primary-700: #3d0264;
+  --color-primary-50: hsl(39, 40%, 92%);
+  --color-primary-100: hsl(288, 18%, 62%);
+  --color-primary-200: hsl(288, 22%, 48%);
+  --color-primary-300: hsl(288, 24%, 40%);
+  --color-primary-400: hsl(288, 26%, 32%);
+  --color-primary-500: hsl(288, 30%, 26%);
+  --color-primary-600: hsl(288, 28%, 20%);
+  --color-primary-700: #2b202e;
 
   --color-success-100: #a2f0bc;
   --color-success-500: #12bd4b;
@@ -43,8 +43,8 @@ body {
   --size-40: 10rem;
 
   margin: 0;
-  background-color: var(--color-grey-200);
-  color: #252525;
+  background-color: hsl(39, 28%, 90%);
+  color: #2b202e;
   font-family: 'Roboto', sans-serif;
 }
 

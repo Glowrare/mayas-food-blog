@@ -6,8 +6,8 @@ const ContactPage = () => {
   return (
     <Fragment>
       <Head>
-        <title>Contact Me</title>
-        <meta name='description' content='Send me your messages!' />
+        <title>Contact Maya</title>
+        <meta name='description' content='Send Maya a message about recipes, nutrition notes, or collaborations.' />
       </Head>
       <ContactForm />
     </Fragment>

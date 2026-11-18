@@ -6,7 +6,7 @@ const MainNavigation = () => {
   return (
     <header className={classes.header}>
       <Link href='/'>
-        <a>
+        <a aria-label="Maya's Kitchen Notes">
           <Logo />
         </a>
       </Link>
