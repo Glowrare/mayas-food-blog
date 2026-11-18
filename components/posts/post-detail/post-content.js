@@ -11,9 +11,6 @@ const PostContent = (props) => {
   const imagePath = `/images/posts/${post.slug}/${post.image}`;
 
   const customRenderers = {
-    // img(image) {
-    //   return <Image src={`/images/posts/${post.slug}/${image.src}`} alt={image.alt} width={384} height={256} />;
-    // },
     p(paragraph) {
       const { node } = paragraph;
 
@@ -22,7 +19,12 @@ const PostContent = (props) => {
 
         return (
           <div className={classes.image}>
-            <Image src={`/images/posts/${post.slug}/${image.properties.src}`} alt={image.alt} width={384} height={256} />
+            <Image
+              src={`/images/posts/${post.slug}/${image.properties.src}`}
+              alt={image.alt}
+              width={384}
+              height={256}
+            />
           </div>
         );
       }
@@ -35,7 +37,7 @@ const PostContent = (props) => {
       <PostHeader title={post.title} image={imagePath} />
       <ReactMarkdown components={customRenderers}>{post.content}</ReactMarkdown>
       <div className={classes.action}>
-        <Button mode='link' path='/posts' text='Back to all posts' />
+        <Button mode="link" path="/posts" text="Back to all posts" />
       </div>
     </article>
   );
