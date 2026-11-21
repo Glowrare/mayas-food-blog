@@ -7,22 +7,16 @@ const SiteFooter = () => {
     <footer className={classes.footer}>
       <div className={classes.top}>
         <div className={classes.logo}>
-          <Link href="/">
-            <a aria-label="Maya's Kitchen Notes">
-              <Logo />
-            </a>
+          <Link href="/" aria-label="Maya's Kitchen Notes">
+            <Logo />
           </Link>
           <small>Weeknight recipes and simple nitrition notes</small>
         </div>
         <div className={classes.explore}>
           <h3>Explore</h3>
           <div className={classes.links}>
-            <Link href="/posts">
-              <a>All Recipes</a>
-            </Link>
-            <Link href="/contact">
-              <a>Reach Out</a>
-            </Link>
+            <Link href="/posts">All Recipes</Link>
+            <Link href="/contact">Reach Out</Link>
           </div>
         </div>
       </div>
