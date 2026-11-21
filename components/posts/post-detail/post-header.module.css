@@ -17,10 +17,15 @@
   text-align: center;
 }
 
-.header img {
-  object-fit: cover;
+.image {
   width: 200px;
   height: 120px;
+  position: relative;
+  flex-shrink: 0;
+}
+
+.image img {
+  object-fit: cover;
 }
 
 @media (min-width: 768px) {

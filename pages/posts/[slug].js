@@ -10,8 +10,8 @@ const PostDetailsPage = (props) => {
   return (
     <Fragment>
       <Head>
-        <title>{post.title} </title>
-        <meta name='description' content={post.excerpt} />
+        <title>{post.title}</title>
+        <meta name="description" content={post.excerpt} />
       </Head>
       <PostContent post={post} />
     </Fragment>

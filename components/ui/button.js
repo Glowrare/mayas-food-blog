@@ -8,12 +8,16 @@ const Button = (props) => {
   return (
     <Fragment>
       {mode === 'link' && (
-        <Link href={path}>
-          <a className={`${classes.button} ${classes[design]}`}>{text}</a>
+        <Link href={path} className={`${classes.button} ${classes[design]}`}>
+          {text}
         </Link>
       )}
       {mode === 'btn' && (
-        <button type='button' className={`${classes.button} ${classes[design]}`} onClick={clickHandler}>
+        <button
+          type="button"
+          className={`${classes.button} ${classes[design]}`}
+          onClick={clickHandler}
+        >
           {text}
         </button>
       )}

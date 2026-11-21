@@ -14,14 +14,14 @@ const PostContent = (props) => {
     p(paragraph) {
       const { node } = paragraph;
 
-      if (node.children[0].tagName === 'img') {
+      if (node.children[0]?.tagName === 'img') {
         const image = node.children[0];
 
         return (
           <div className={classes.image}>
             <Image
               src={`/images/posts/${post.slug}/${image.properties.src}`}
-              alt={image.alt}
+              alt={image.properties.alt ?? ''}
               width={384}
               height={256}
             />

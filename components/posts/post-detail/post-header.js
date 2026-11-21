@@ -7,7 +7,9 @@ const PostHeader = (props) => {
   return (
     <header className={classes.header}>
       <h1>{title}</h1>
-      <Image src={image} alt={title} width={200} height={150} />
+      <div className={classes.image}>
+        <Image src={image} alt={title} fill sizes="200px" loading="eager" />
+      </div>
     </header>
   );
 };

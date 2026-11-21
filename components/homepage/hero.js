@@ -5,7 +5,13 @@ const Hero = () => {
   return (
     <section className={classes.hero}>
       <div className={classes.image}>
-        <Image src='/images/site/avatar.jpg' alt="An illustrated portrait of Maya Reyes" width={320} height={320} />
+        <Image
+          src="/images/site/avatar.jpg"
+          alt="An illustrated portrait of Maya Reyes"
+          width={320}
+          height={320}
+          loading="eager"
+        />
       </div>
       <h1>Hi, I'm Maya.</h1>
       <p>I blog about weeknight recipes and simple nutrition notes.</p>

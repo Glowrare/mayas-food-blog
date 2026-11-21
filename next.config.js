@@ -1,6 +1,6 @@
 module.exports = {
   reactStrictMode: true,
-  images: {
-    domains: ['images.unsplash.com'],
+  turbopack: {
+    root: __dirname,
   },
 };
