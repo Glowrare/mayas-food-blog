@@ -23,6 +23,7 @@ const PostContent = (props) => {
               alt={image.properties.alt ?? ''}
               width={384}
               height={256}
+              className="h-auto w-full"
             />
           </div>
         );
