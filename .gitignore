@@ -22,6 +22,7 @@
 # misc
 .DS_Store
 *.pem
+/.local-reference/
 
 # debug
 npm-debug.log*
