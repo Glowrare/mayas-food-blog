@@ -28,6 +28,14 @@
   --color-error-100: #f1acc9;
   --color-error-500: #a10c4a;
 
+  --color-brand: #392b3d;
+  --color-brand-muted: #82677f;
+  --color-lavender: #ede5ee;
+  --color-canvas: #faf7f2;
+  --color-oat: #eae2d4;
+  --color-ink: #2b202e;
+  --font-editorial: Georgia, 'Times New Roman', serif;
+
   --font-sans: 'Roboto', sans-serif;
   --font-display: 'Oswald', 'Roboto', sans-serif;
 }
@@ -46,6 +54,11 @@
 
   a {
     @apply no-underline;
+  }
+
+  :where(a, button):focus-visible {
+    outline: 2px solid currentColor;
+    outline-offset: 4px;
   }
 
   button {
