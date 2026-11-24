@@ -4,6 +4,8 @@ image: 'ginger-sesame-tofu-stir-fry.jpg'
 date: '2026-08-05'
 excerpt: Crisp-edged tofu, snap peas, and a gingery sesame sauce that clings to every cube. Serve it over rice and dinner is done in one skillet.
 isFeatured: true
+categories: [meatless]
+totalMinutes: 30
 ---
 
 ## with Snap Peas and Jasmine Rice

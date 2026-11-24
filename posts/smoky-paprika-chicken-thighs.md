@@ -4,6 +4,8 @@ image: 'smoky-paprika-chicken-thighs.jpg'
 date: '2026-09-30'
 excerpt: Bone-in thighs get a smoked paprika rub, then roast over red onions and peppers until the skin shatters and the pan juices taste like a shortcut stew.
 isFeatured: true
+categories: [chicken]
+totalMinutes: 55
 ---
 
 ## with Sweet Peppers and Red Onion

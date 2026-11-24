@@ -4,6 +4,8 @@ image: 'coconut-lentil-dal.jpg'
 date: '2026-05-27'
 excerpt: Red lentils melt into coconut milk with turmeric, ginger, and tomatoes. It is inexpensive, freezer-friendly, and better the next day with a pile of rice.
 isFeatured: true
+categories: [meatless, soups-stews]
+totalMinutes: 40
 ---
 
 ## with Turmeric, Ginger, and Cilantro

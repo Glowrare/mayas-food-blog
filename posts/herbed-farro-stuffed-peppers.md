@@ -4,6 +4,8 @@ image: 'herbed-farro-stuffed-peppers.jpg'
 date: '2026-08-19'
 excerpt: Bell peppers packed with farro, tomatoes, feta, and a handful of herbs. They reheat beautifully, which makes them a Sunday-cook, weekday-eat kind of dinner.
 isFeatured: false
+categories: [meatless, pasta-grains]
+totalMinutes: 65
 ---
 
 ## with Tomato, Feta, and Fresh Dill

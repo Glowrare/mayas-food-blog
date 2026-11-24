@@ -4,6 +4,8 @@ image: 'lemon-garlic-sheet-pan-salmon.jpg'
 date: '2026-11-10'
 excerpt: One pan, twenty-five minutes, and a bright lemon-garlic sauce that makes weeknight salmon feel like a restaurant plate. Asparagus and baby potatoes roast alongside so dinner is done together.
 isFeatured: true
+categories: [seafood]
+totalMinutes: 40
 ---
 
 ## with Roasted Asparagus and Baby Potatoes

@@ -4,6 +4,8 @@ image: 'turmeric-coconut-cod.jpg'
 date: '2026-04-29'
 excerpt: Gentle coconut-turmeric broth, flaky cod, and a handful of greens. It looks like a special occasion and cooks in a single skillet in under half an hour.
 isFeatured: false
+categories: [seafood]
+totalMinutes: 25
 ---
 
 ## with Baby Spinach and Jasmine Rice

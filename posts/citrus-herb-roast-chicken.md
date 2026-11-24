@@ -4,6 +4,8 @@ image: 'citrus-herb-roast-chicken.jpg'
 date: '2026-07-08'
 excerpt: A whole chicken on a bed of oranges, onions, and thyme. The pan juices become a bright gravy, and leftovers make the rest of the week easier.
 isFeatured: false
+categories: [chicken]
+totalMinutes: 90
 ---
 
 ## with Orange, Thyme, and Pan Juices

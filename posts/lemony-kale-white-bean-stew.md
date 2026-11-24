@@ -4,6 +4,8 @@ image: 'lemony-kale-white-bean-stew.jpg'
 date: '2026-03-03'
 excerpt: A short-simmer stew of white beans, kale, and lots of lemon. Olive oil and Parmesan rinds (if you have one) give it the comfort of a longer braise.
 isFeatured: false
+categories: [meatless, soups-stews]
+totalMinutes: 30
 ---
 
 ## with Garlic, Chili, and Parmesan

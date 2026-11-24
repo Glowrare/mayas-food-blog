@@ -4,6 +4,8 @@ image: 'maple-mustard-pork-tenderloin.jpg'
 date: '2026-06-10'
 excerpt: A quick maple-mustard glaze caramelizes on lean pork tenderloin while green beans roast on the same tray. Slice it thick and spoon over the sticky pan sauce.
 isFeatured: false
+categories: [meat]
+totalMinutes: 35
 ---
 
 ## with Roasted Green Beans

@@ -4,6 +4,8 @@ image: 'charred-broccoli-white-bean-salad.jpg'
 date: '2026-05-13'
 excerpt: Broccoli charred until the edges crisp, then tossed with creamy white beans, lemon, and pecorino. It works warm as dinner or cold as lunch the next day.
 isFeatured: false
+categories: [meatless]
+totalMinutes: 30
 ---
 
 ## with Lemon, Pecorino, and Chili

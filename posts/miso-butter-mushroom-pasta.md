@@ -4,6 +4,8 @@ image: 'miso-butter-mushroom-pasta.jpg'
 date: '2026-10-14'
 excerpt: Browned mushrooms, a knob of miso butter, and a splash of pasta water turn a box of spaghetti into a savory, weeknight-friendly bowl that tastes slow-cooked.
 isFeatured: false
+categories: [meatless, pasta-grains]
+totalMinutes: 30
 ---
 
 ## with Thyme and Cracked Pepper

@@ -4,6 +4,8 @@ image: 'crispy-chickpea-grain-bowls.jpg'
 date: '2026-10-28'
 excerpt: Crunchy roasted chickpeas, lemony quinoa, and a tahini-yogurt drizzle make this my default lunch-prep bowl. It keeps well and still tastes fresh on day three.
 isFeatured: true
+categories: [meatless, pasta-grains]
+totalMinutes: 40
 ---
 
 ## with Lemony Quinoa and Tahini Yogurt

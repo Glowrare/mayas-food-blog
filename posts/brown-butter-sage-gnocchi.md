@@ -4,6 +4,8 @@ image: 'brown-butter-sage-gnocchi.jpg'
 date: '2026-07-22'
 excerpt: Pan-crisped gnocchi in nutty brown butter with fried sage and a squeeze of lemon. It tastes indulgent and still lands on the table in fifteen minutes.
 isFeatured: false
+categories: [pasta-grains, meatless]
+totalMinutes: 15
 ---
 
 ## with Lemon and Parmesan

@@ -4,6 +4,8 @@ image: 'honey-lime-shrimp-tacos.jpg'
 date: '2026-09-02'
 excerpt: Fast shrimp, a sticky honey-lime glaze, and a crunchy cabbage slaw. These tacos are ready in the time it takes to warm the tortillas.
 isFeatured: false
+categories: [seafood]
+totalMinutes: 25
 ---
 
 ## with Cabbage Slaw and Avocado

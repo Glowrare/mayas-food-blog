@@ -4,6 +4,8 @@ image: 'chili-crisp-eggs-and-rice.jpg'
 date: '2026-02-17'
 excerpt: Jammy chili-crisp fried eggs over leftover rice with cucumber and scallions. It is the ten-minute dinner I make when cooking anything else feels impossible.
 isFeatured: false
+categories: [meatless, pasta-grains]
+totalMinutes: 15
 ---
 
 ## with Cucumber, Scallions, and Sesame

@@ -4,6 +4,8 @@ image: 'weeknight-beef-and-broccoli.jpg'
 date: '2026-03-31'
 excerpt: Thinly sliced flank steak, lots of broccoli, and a glossy garlic-soy sauce. Skip the takeout wait and keep the skillet hot so the beef sears instead of steams.
 isFeatured: false
+categories: [meat]
+totalMinutes: 30
 ---
 
 ## with Garlic Soy Sauce and Rice

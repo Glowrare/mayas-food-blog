@@ -4,6 +4,8 @@ image: 'roasted-cauliflower-tahini-soup.jpg'
 date: '2026-09-16'
 excerpt: Roasting the cauliflower first gives this blender soup a toasty, nutty backbone. Tahini and lemon keep it creamy without any dairy.
 isFeatured: false
+categories: [meatless, soups-stews]
+totalMinutes: 50
 ---
 
 ## with Toasted Cumin and Lemon

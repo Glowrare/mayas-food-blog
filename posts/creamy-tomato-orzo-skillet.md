@@ -4,6 +4,8 @@ image: 'creamy-tomato-orzo-skillet.jpg'
 date: '2026-06-24'
 excerpt: Orzo simmers in a garlicky tomato broth until it turns silky, like risotto with a fraction of the stirring. A handful of spinach at the end makes it a full bowl.
 isFeatured: false
+categories: [meatless, pasta-grains]
+totalMinutes: 25
 ---
 
 ## with Spinach and Basil

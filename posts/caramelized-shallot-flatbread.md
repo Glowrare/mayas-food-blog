@@ -4,6 +4,8 @@ image: 'caramelized-shallot-flatbread.jpg'
 date: '2026-04-15'
 excerpt: Store-bought dough, slowly caramelized shallots, ricotta, and honey. It is pizza-adjacent, weeknight-possible, and excellent with a green salad.
 isFeatured: false
+categories: [meatless]
+totalMinutes: 45
 ---
 
 ## with Ricotta, Thyme, and Honey

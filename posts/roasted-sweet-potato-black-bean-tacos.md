@@ -4,6 +4,8 @@ image: 'roasted-sweet-potato-black-bean-tacos.jpg'
 date: '2026-03-17'
 excerpt: Sheet-pan sweet potatoes, spiced black beans, and a lime crema. These vegetarian tacos are hearty enough for dinner and easy to scale for a crowd.
 isFeatured: true
+categories: [meatless]
+totalMinutes: 40
 ---
 
 ## with Lime Crema and Pickled Onion
