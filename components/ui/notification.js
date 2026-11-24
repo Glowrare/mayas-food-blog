@@ -1,4 +1,5 @@
 import ReactDOM from 'react-dom';
+import { cn } from '../../lib/utils';
 
 const tones = {
   success: 'bg-success-500 text-grey-800',
@@ -11,7 +12,10 @@ const Notification = (props) => {
 
   return ReactDOM.createPortal(
     <div
-      className={`fixed bottom-0 left-0 flex h-20 w-full items-center justify-between rounded-t-none px-8 shadow-[0_1px_8px_rgba(0,0,0,0.2)] md:left-[calc(50%-20rem)] md:w-160 md:rounded-t-[6px] ${tone}`}
+      className={cn(
+        'fixed bottom-0 left-0 flex h-20 w-full items-center justify-between rounded-t-none px-8 shadow-[0_1px_8px_rgba(0,0,0,0.2)] md:left-[calc(50%-20rem)] md:w-160 md:rounded-t-[6px]',
+        tone
+      )}
     >
       <h2 className="m-0 text-2xl font-bold">{title}</h2>
       <p className="m-0">{message}</p>

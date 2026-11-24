@@ -1,5 +1,6 @@
 import { Fragment } from 'react';
 import Link from 'next/link';
+import { cn } from '../../lib/utils';
 
 const buttonBase =
   'inline-block rounded-[4px] p-2 uppercase no-underline outline-none focus:outline focus:outline-1 focus:outline-dotted';
@@ -12,7 +13,7 @@ const designs = {
 
 const Button = (props) => {
   const { path, mode = 'btn', text, design = 'default', clickHandler } = props;
-  const className = `${buttonBase} ${designs[design] ?? designs.default}`;
+  const className = cn(buttonBase, designs[design] ?? designs.default);
 
   return (
     <Fragment>
