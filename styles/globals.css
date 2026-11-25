@@ -1,5 +1,20 @@
-@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@700&family=Roboto&family=Source+Sans+Pro:wght@300&display=swap');
 @import 'tailwindcss';
+
+@font-face {
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 100 900;
+  font-display: swap;
+  src: url('/fonts/roboto-variable.ttf') format('truetype');
+}
+
+@font-face {
+  font-family: 'Oswald';
+  font-style: normal;
+  font-weight: 700;
+  font-display: swap;
+  src: url('/fonts/oswald-700.ttf') format('truetype');
+}
 
 @theme {
   --color-grey-50: hsl(39, 50%, 97%);
@@ -28,13 +43,21 @@
   --color-error-100: #f1acc9;
   --color-error-500: #a10c4a;
 
+  --color-brand: #392b3d;
+  --color-brand-muted: #82677f;
+  --color-lavender: #ede5ee;
+  --color-canvas: #faf7f2;
+  --color-oat: #eae2d4;
+  --color-ink: #2b202e;
+  --font-editorial: Georgia, 'Times New Roman', serif;
+
   --font-sans: 'Roboto', sans-serif;
   --font-display: 'Oswald', 'Roboto', sans-serif;
 }
 
 @layer base {
   body {
-    background-color: hsl(39, 28%, 90%);
+    background-color: var(--color-canvas);
     @apply font-sans text-grey-900;
   }
 
@@ -46,6 +69,11 @@
 
   a {
     @apply no-underline;
+  }
+
+  :where(a, button):focus-visible {
+    outline: 2px solid currentColor;
+    outline-offset: 4px;
   }
 
   button {

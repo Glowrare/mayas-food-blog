@@ -1,34 +1,68 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+# Maya's Kitchen Notes
 
-## Getting Started
+A food blog built with Next.js 16 App Router, React 19, Tailwind CSS v4,
+and JavaScript. Recipes and photography are stored locally.
 
-First, run the development server:
+## Development
+
+Use Node.js 24 and install the locked dependencies:
 
 ```bash
+npm ci
 npm run dev
-# or
-yarn dev
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+Open [localhost:3000](http://localhost:3000).
 
-You can start editing the page by modifying `pages/index.js`. The page auto-updates as you edit the file.
+## Project structure
 
-[API routes](https://nextjs.org/docs/api-routes/introduction) can be accessed on [http://localhost:3000/api/hello](http://localhost:3000/api/hello). This endpoint can be edited in `pages/api/hello.js`.
+- `app/page.js`: editorial homepage.
+- `app/posts/page.js`: archive containing all recipes.
+- `app/posts/[slug]/page.js`: individual Markdown recipe pages.
+- `app/contact/page.js`: contact form.
+- `app/api/contact/route.js`: contact API route handler.
+- `components/`: homepage sections, recipe cards, shared navigation, and footer.
+- `lib/posts-util.js`: server-side Markdown file access.
+- `lib/recipe-summary.mjs`: recipe metadata normalization without Markdown bodies.
+- `lib/homepage-content.mjs`: deterministic editorial selection and category filtering.
+- `lib/utils.js`: `cn()` for conditional classes and Tailwind class merging.
+- `posts/`: recipe Markdown and frontmatter.
+- `public/images/`: local recipe photography and publication assets.
+- `public/fonts/`: self-hosted Roboto and Oswald with their font license notices.
+- `styles/globals.css`: Tailwind theme and base styles.
 
-The `pages/api` directory is mapped to `/api/*`. Files in this directory are treated as [API routes](https://nextjs.org/docs/api-routes/introduction) instead of React pages.
+The homepage selects its lead and editor's picks from featured recipes, using
+optional editorial priority before publication date and slug. With no featured
+recipes, the newest recipe leads. Latest recipes exclude the curated selections.
+Discovery includes the full archive, displays up to four matching recipes, and
+derives Quick & Easy from valid durations of 30 minutes or less.
 
-## Learn More
+Filesystem content access stays on the server. The client-side discovery receives
+only normalized recipe summaries. The shared mobile navigation is a disclosure
+with keyboard controls and active-route styling.
 
-To learn more about Next.js, take a look at the following resources:
+## Verification
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+```bash
+npm run test:unit
+npm test
+npm run build
+```
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
+Node's test runner discovers `unit-tests/*.test.mjs`. Playwright discovers browser
+tests under `tests/` and uses installed Google Chrome. It starts the development
+server automatically, or reuses a running server outside CI.
 
-## Deploy on Vercel
+Roboto and Oswald are served locally with system fallbacks, so page loading and
+browser tests do not require access to Google Fonts.
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+## Production
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+```bash
+npm run build
+npm start
+```
+
+Set `NEXT_PUBLIC_SITE_URL` to the publication's URL when hosting to configure
+absolute metadata URLs. The contact API validates input and stores messages in
+process memory; messages are lost when the server restarts. It does not send email.
