@@ -5,7 +5,7 @@ const LatestRecipes = ({ recipes }) => {
   if (!recipes.length) return null;
 
   return (
-    <section aria-labelledby="lates-heading">
+    <section aria-labelledby="latest-heading">
       <SectionHeading
         id="latest-heading"
         title="Fresh from the kitchen"

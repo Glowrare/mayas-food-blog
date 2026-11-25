@@ -3,7 +3,7 @@ import Image from 'next/image';
 import { CATEGORY_LABELS } from 'lib/recipe-summary.mjs';
 import { cn } from 'lib/utils';
 
-const PostItem = ({ post, variant = 'default', sizes, className }) => {
+const PostItem = ({ post, variant = 'default', sizes, className, loading = 'lazy' }) => {
   const {
     title,
     image,
@@ -48,6 +48,7 @@ const PostItem = ({ post, variant = 'default', sizes, className }) => {
             src={imagePath}
             alt=""
             fill
+            loading={loading}
             sizes={
               sizes ||
               '(max-width: 639px) 100vw, (max-width: 1023px) 50vw, 33vw'
@@ -58,7 +59,7 @@ const PostItem = ({ post, variant = 'default', sizes, className }) => {
         <div className={cn('space-y-2 p-4', compact && 'p-3')}>
           {details.length > 0 && (
             <p className="text-xs font-medium uppercase tracking-wide text-brand">
-              {details.join(' . ')}
+              {details.join(' · ')}
             </p>
           )}
           <h3

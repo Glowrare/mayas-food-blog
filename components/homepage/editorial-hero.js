@@ -22,7 +22,8 @@ const EditorialHero = ({ recipe }) => {
           alt={title}
           fill
           preload
-          sizes="(max-width: 1023px) 100 vw, 55vw"
+          loading="eager"
+          sizes="(max-width: 1023px) 100vw, 55vw"
           className="object-cover"
         />
       </div>
@@ -32,7 +33,7 @@ const EditorialHero = ({ recipe }) => {
         </p>
         <h1
           id="lead-heading"
-          className="font-editoria text-4xl leading-tight text-brand md:text-5xl xl:text-6xl"
+          className="font-editorial text-4xl leading-tight text-brand md:text-5xl xl:text-6xl"
         >
           {title}
         </h1>
@@ -41,7 +42,7 @@ const EditorialHero = ({ recipe }) => {
         </p>
         {details.length > 0 && (
           <p className="text-sm font-medium uppercase tracking-wide text-brand">
-            {details.join(' . ')}
+            {details.join(' · ')}
           </p>
         )}
         <Link

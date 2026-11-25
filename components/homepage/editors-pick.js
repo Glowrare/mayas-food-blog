@@ -9,7 +9,7 @@ const EditorsPick = ({ recipes }) => {
       <SectionHeading
         id="pick-heading"
         title="Editor's Picks"
-        desc="Handpicked favourites from the kicthen."
+        desc="Handpicked favourites from the kitchen."
       />
       <PostsGrid posts={recipes} variant="editorial" columns={3} />
     </section>
