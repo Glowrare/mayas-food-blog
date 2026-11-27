@@ -1,6 +1,6 @@
 ---
 title: 'Lemony Kale White Bean Stew'
-image: 'lemony-kale-white-bean-stew.jpg'
+image: 'lemony-kale-white-bean-stew-lead.jpg'
 date: '2026-03-03'
 excerpt: A short-simmer stew of white beans, kale, and lots of lemon. Olive oil and Parmesan rinds (if you have one) give it the comfort of a longer braise.
 isFeatured: false
@@ -35,4 +35,4 @@ This is the pot I make when I want something warm that still tastes clean. Lemon
 
 ## Result!
 
-![Lemony Kale White Bean Stew](lemony-kale-white-bean-stew-final.jpg)
+![Lemony Kale White Bean Stew](lemony-kale-white-bean-stew-result.jpg)

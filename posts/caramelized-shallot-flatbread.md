@@ -1,6 +1,6 @@
 ---
 title: 'Caramelized Shallot Flatbread'
-image: 'caramelized-shallot-flatbread.jpg'
+image: 'caramelized-shallot-flatbread-lead.jpg'
 date: '2026-04-15'
 excerpt: Store-bought dough, slowly caramelized shallots, ricotta, and honey. It is pizza-adjacent, weeknight-possible, and excellent with a green salad.
 isFeatured: false
@@ -33,4 +33,4 @@ Shallots take patience, not skill. Let them go jammy, then spread them over stre
 
 ## Result!
 
-![Caramelized Shallot Flatbread](caramelized-shallot-flatbread-final.jpg)
+![Caramelized Shallot Flatbread](caramelized-shallot-flatbread-result.jpg)

@@ -1,6 +1,6 @@
 ---
 title: 'Coconut Lentil Dal'
-image: 'coconut-lentil-dal.jpg'
+image: 'coconut-lentil-dal-lead.jpg'
 date: '2026-05-27'
 excerpt: Red lentils melt into coconut milk with turmeric, ginger, and tomatoes. It is inexpensive, freezer-friendly, and better the next day with a pile of rice.
 isFeatured: true
@@ -38,4 +38,4 @@ Dal is the pot I start when I need dinner to simmer while I do something else. R
 
 ## Result!
 
-![Coconut Lentil Dal](coconut-lentil-dal-final.jpg)
+![Coconut Lentil Dal](coconut-lentil-dal-result.jpg)

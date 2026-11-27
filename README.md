@@ -28,7 +28,7 @@ Open [localhost:3000](http://localhost:3000).
 - `lib/utils.js`: `cn()` for conditional classes and Tailwind class merging.
 - `posts/`: recipe Markdown and frontmatter.
 - `public/images/`: local recipe photography and publication assets.
-- `public/fonts/`: self-hosted Roboto and Oswald with their font license notices.
+- `public/fonts/`: self-hosted Roboto with its font license notice.
 - `styles/globals.css`: Tailwind theme and base styles.
 
 The homepage selects its lead and editor's picks from featured recipes, using
@@ -53,7 +53,7 @@ Node's test runner discovers `unit-tests/*.test.mjs`. Playwright discovers brows
 tests under `tests/` and uses installed Google Chrome. It starts the development
 server automatically, or reuses a running server outside CI.
 
-Roboto and Oswald are served locally with system fallbacks, so page loading and
+Roboto is served locally with system fallbacks, so page loading and
 browser tests do not require access to Google Fonts.
 
 ## Production

@@ -1,6 +1,6 @@
 ---
 title: 'Ginger Sesame Tofu Stir-Fry'
-image: 'ginger-sesame-tofu-stir-fry.jpg'
+image: 'ginger-sesame-tofu-stir-fry-lead.jpg'
 date: '2026-08-05'
 excerpt: Crisp-edged tofu, snap peas, and a gingery sesame sauce that clings to every cube. Serve it over rice and dinner is done in one skillet.
 isFeatured: true
@@ -37,4 +37,4 @@ The trick is drying the tofu and giving it space in the pan. Once the edges are 
 
 ## Result!
 
-![Ginger Sesame Tofu Stir-Fry](ginger-sesame-tofu-stir-fry-final.jpg)
+![Ginger Sesame Tofu Stir-Fry](ginger-sesame-tofu-stir-fry-result.jpg)

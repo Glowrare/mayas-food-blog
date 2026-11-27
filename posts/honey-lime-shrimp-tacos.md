@@ -1,6 +1,6 @@
 ---
 title: 'Honey Lime Shrimp Tacos'
-image: 'honey-lime-shrimp-tacos.jpg'
+image: 'honey-lime-shrimp-tacos-lead.jpg'
 date: '2026-09-02'
 excerpt: Fast shrimp, a sticky honey-lime glaze, and a crunchy cabbage slaw. These tacos are ready in the time it takes to warm the tortillas.
 isFeatured: false
@@ -35,4 +35,4 @@ Shrimp cook in minutes, which is exactly why they belong on a Tuesday. The glaze
 
 ## Result!
 
-![Honey Lime Shrimp Tacos](honey-lime-shrimp-tacos-final.jpg)
+![Honey Lime Shrimp Tacos](honey-lime-shrimp-tacos-result.jpg)

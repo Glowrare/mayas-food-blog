@@ -1,6 +1,6 @@
 ---
 title: 'Charred Broccoli White Bean Salad'
-image: 'charred-broccoli-white-bean-salad.jpg'
+image: 'charred-broccoli-white-bean-salad-lead.jpg'
 date: '2026-05-13'
 excerpt: Broccoli charred until the edges crisp, then tossed with creamy white beans, lemon, and pecorino. It works warm as dinner or cold as lunch the next day.
 isFeatured: false
@@ -32,4 +32,4 @@ High heat is what makes broccoli a main, not a side. I roast it until the floret
 
 ## Result!
 
-![Charred Broccoli White Bean Salad](charred-broccoli-white-bean-salad-final.jpg)
+![Charred Broccoli White Bean Salad](charred-broccoli-white-bean-salad-result.jpg)

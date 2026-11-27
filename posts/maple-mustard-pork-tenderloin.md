@@ -33,4 +33,4 @@ Pork tenderloin is weeknight-friendly if you do not overcook it. Maple and grain
 
 ## Result!
 
-![Maple Mustard Pork Tenderloin](maple-mustard-pork-tenderloin-final.jpg)
+![Maple Mustard Pork Tenderloin](maple-mustard-pork-tenderloin-result.jpg)

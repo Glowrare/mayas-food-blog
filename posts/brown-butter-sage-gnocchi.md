@@ -1,6 +1,6 @@
 ---
 title: 'Brown Butter Sage Gnocchi'
-image: 'brown-butter-sage-gnocchi.jpg'
+image: 'brown-butter-sage-gnocchi-lead.jpg'
 date: '2026-07-22'
 excerpt: Pan-crisped gnocchi in nutty brown butter with fried sage and a squeeze of lemon. It tastes indulgent and still lands on the table in fifteen minutes.
 isFeatured: false
@@ -32,4 +32,4 @@ Store-bought gnocchi crisp up like little dumplings if you skip the boiling wate
 
 ## Result!
 
-![Brown Butter Sage Gnocchi](brown-butter-sage-gnocchi-final.jpg)
+![Brown Butter Sage Gnocchi](brown-butter-sage-gnocchi-result.jpg)

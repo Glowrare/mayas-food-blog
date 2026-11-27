@@ -15,7 +15,7 @@ test('the existing recipe library retains its selections, categories and images'
     });
   const before = structuredClone(recipes);
   const home = buildHomepageContent(recipes);
-  assert.equal(home.recipes.length, 20);
+  assert.equal(home.recipes.length, 45);
   assert.equal(home.leadStory.slug, 'lemon-garlic-sheet-pan-salmon');
   assert.deepEqual(home.editorsPick.map(recipe => recipe.slug), [
     'crispy-chickpea-grain-bowls',
@@ -32,11 +32,13 @@ test('the existing recipe library retains its selections, categories and images'
     id, filterRecipes(home.recipes, id).length,
   ]));
   assert.deepEqual(counts, {
-    all: 20, 'quick-easy': 10, meatless: 13, chicken: 2,
-    seafood: 3, meat: 2, 'soups-stews': 3, 'pasta-grains': 6,
+    all: 45, 'quick-easy': 23, meatless: 25, chicken: 6,
+    seafood: 7, meat: 7, 'soups-stews': 9, 'pasta-grains': 16,
   });
   assert.deepEqual(filterRecipes(home.recipes, 'soups-stews').map(recipe => recipe.slug), [
     'roasted-cauliflower-tahini-soup', 'coconut-lentil-dal', 'lemony-kale-white-bean-stew',
+    'tomato-basil-soup', 'butternut-squash-sage-soup', 'smoky-black-bean-chili',
+    'turkey-meatball-soup', 'chicken-tortilla-soup', 'coconut-curry-chickpeas',
   ]);
   for (const recipe of home.recipes) {
     assert.equal(Object.hasOwn(recipe, 'content'), false);

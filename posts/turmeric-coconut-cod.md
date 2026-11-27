@@ -1,6 +1,6 @@
 ---
 title: 'Turmeric Coconut Cod'
-image: 'turmeric-coconut-cod.jpg'
+image: 'turmeric-coconut-cod-lead.jpg'
 date: '2026-04-29'
 excerpt: Gentle coconut-turmeric broth, flaky cod, and a handful of greens. It looks like a special occasion and cooks in a single skillet in under half an hour.
 isFeatured: false
@@ -35,4 +35,4 @@ Poaching fish in coconut milk keeps it from drying out, which is useful on night
 
 ## Result!
 
-![Turmeric Coconut Cod](turmeric-coconut-cod-final.jpg)
+![Turmeric Coconut Cod](turmeric-coconut-cod-result.jpg)

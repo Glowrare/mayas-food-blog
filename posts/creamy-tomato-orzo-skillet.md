@@ -1,6 +1,6 @@
 ---
 title: 'Creamy Tomato Orzo Skillet'
-image: 'creamy-tomato-orzo-skillet.jpg'
+image: 'creamy-tomato-orzo-skillet-lead.jpg'
 date: '2026-06-24'
 excerpt: Orzo simmers in a garlicky tomato broth until it turns silky, like risotto with a fraction of the stirring. A handful of spinach at the end makes it a full bowl.
 isFeatured: false
@@ -36,4 +36,4 @@ This is pantry cooking at its best. Orzo drinks tomato and broth until the skill
 
 ## Result!
 
-![Creamy Tomato Orzo Skillet](creamy-tomato-orzo-skillet-final.jpg)
+![Creamy Tomato Orzo Skillet](creamy-tomato-orzo-skillet-result.jpg)

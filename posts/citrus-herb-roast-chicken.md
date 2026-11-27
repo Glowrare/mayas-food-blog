@@ -33,4 +33,4 @@ Sunday roast energy without a long ingredient list. Citrus in the cavity and und
 
 ## Result!
 
-![Citrus Herb Roast Chicken](citrus-herb-roast-chicken-final.jpg)
+![Citrus Herb Roast Chicken](citrus-herb-roast-chicken-result.jpg)

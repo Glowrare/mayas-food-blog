@@ -16,12 +16,12 @@ test('category discovery filters and resets', async ({ page }) => {
   await expect(announcement).toHaveAttribute('aria-atomic', 'true');
   await expect(discovery.getByRole('group', { name: 'Recipe categories' })).toBeVisible();
   await expect(discovery.getByRole('link', { name: 'Explore all recipes' })).toHaveAttribute('href', '/posts');
-  await expect(discovery.getByText('Showing 4 of 20 recipes')).toBeVisible();
+  await expect(discovery.getByText('Showing 4 of 45 recipes')).toBeVisible();
   const seafood = discovery.getByRole('button', { name: 'Seafood', exact: true });
   await seafood.click();
   await expect(seafood).toHaveAttribute('aria-pressed', 'true');
-  await expect(discovery.getByText('Showing 3 of 3 recipes')).toBeVisible();
-  await expect(discovery.getByRole('listitem')).toHaveCount(3);
+  await expect(discovery.getByText('Showing 4 of 7 recipes')).toBeVisible();
+  await expect(discovery.getByRole('listitem')).toHaveCount(4);
   for (const slug of ['lemon-garlic-sheet-pan-salmon', 'honey-lime-shrimp-tacos', 'turmeric-coconut-cod']) {
     await expect(discovery.locator(`a[href="/posts/${slug}"]`)).toBeVisible();
   }
@@ -30,25 +30,26 @@ test('category discovery filters and resets', async ({ page }) => {
   await page.keyboard.press('Space');
   await expect(chicken).toHaveAttribute('aria-pressed', 'true');
   await expect(seafood).toHaveAttribute('aria-pressed', 'false');
-  await expect(discovery.getByText('Showing 2 of 2 recipes')).toBeVisible();
+  await expect(discovery.getByText('Showing 4 of 6 recipes')).toBeVisible();
   await expect(discovery.locator('a[href="/posts/smoky-paprika-chicken-thighs"]')).toBeVisible();
   await expect(discovery.locator('a[href="/posts/citrus-herb-roast-chicken"]')).toBeVisible();
   const soups = discovery.getByRole('button', { name: 'Soups & Stews', exact: true });
   await soups.focus();
   await page.keyboard.press('Enter');
   await expect(soups).toHaveAttribute('aria-pressed', 'true');
-  await expect(announcement).toHaveText('Showing 3 of 3 recipes');
-  await expect(discovery.getByRole('listitem')).toHaveCount(3);
+  await expect(announcement).toHaveText('Showing 4 of 9 recipes');
+  await expect(discovery.getByRole('listitem')).toHaveCount(4);
   const soupSlugs = await discovery.locator('li a').evaluateAll(links => links.map(link => link.getAttribute('href')));
   expect(soupSlugs).toEqual([
     '/posts/roasted-cauliflower-tahini-soup',
     '/posts/coconut-lentil-dal',
     '/posts/lemony-kale-white-bean-stew',
+    '/posts/tomato-basil-soup',
   ]);
   await discovery.getByRole('button', { name: 'Quick & Easy', exact: true }).click();
-  await expect(discovery.getByText('Showing 4 of 10 recipes')).toBeVisible();
+  await expect(discovery.getByText('Showing 4 of 23 recipes')).toBeVisible();
   await discovery.getByRole('button', { name: 'All', exact: true }).click();
-  await expect(discovery.getByText('Showing 4 of 20 recipes')).toBeVisible();
+  await expect(discovery.getByText('Showing 4 of 45 recipes')).toBeVisible();
   await expect(discovery.getByRole('listitem')).toHaveCount(4);
   await expect(discovery.getByRole('button', { pressed: true })).toHaveCount(1);
 });

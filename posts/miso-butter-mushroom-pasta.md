@@ -1,6 +1,6 @@
 ---
 title: 'Miso Butter Mushroom Pasta'
-image: 'miso-butter-mushroom-pasta.jpg'
+image: 'miso-butter-mushroom-pasta-lead.jpg'
 date: '2026-10-14'
 excerpt: Browned mushrooms, a knob of miso butter, and a splash of pasta water turn a box of spaghetti into a savory, weeknight-friendly bowl that tastes slow-cooked.
 isFeatured: false
@@ -35,4 +35,4 @@ Miso gives this pan sauce the depth that usually takes stock and time. I brown t
 
 ## Result!
 
-![Miso Butter Mushroom Pasta](miso-butter-mushroom-pasta-final.jpg)
+![Miso Butter Mushroom Pasta](miso-butter-mushroom-pasta-result.jpg)

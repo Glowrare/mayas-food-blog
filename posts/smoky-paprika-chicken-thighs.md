@@ -1,6 +1,6 @@
 ---
 title: 'Smoky Paprika Chicken Thighs'
-image: 'smoky-paprika-chicken-thighs.jpg'
+image: 'smoky-paprika-chicken-thighs-lead.jpg'
 date: '2026-09-30'
 excerpt: Bone-in thighs get a smoked paprika rub, then roast over red onions and peppers until the skin shatters and the pan juices taste like a shortcut stew.
 isFeatured: true
@@ -36,4 +36,4 @@ Chicken thighs forgive a busy evening. A three-spice rub and a crowded pan of pe
 
 ## Result!
 
-![Smoky Paprika Chicken Thighs](smoky-paprika-chicken-thighs-final.jpg)
+![Smoky Paprika Chicken Thighs](smoky-paprika-chicken-thighs-result.jpg)

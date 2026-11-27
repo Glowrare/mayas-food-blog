@@ -1,6 +1,6 @@
 ---
 title: 'Herbed Farro Stuffed Peppers'
-image: 'herbed-farro-stuffed-peppers.jpg'
+image: 'herbed-farro-stuffed-peppers-lead.jpg'
 date: '2026-08-19'
 excerpt: Bell peppers packed with farro, tomatoes, feta, and a handful of herbs. They reheat beautifully, which makes them a Sunday-cook, weekday-eat kind of dinner.
 isFeatured: false
@@ -35,4 +35,4 @@ Farro stays pleasantly chewy after baking, unlike rice that can turn mushy. I mi
 
 ## Result!
 
-![Herbed Farro Stuffed Peppers](herbed-farro-stuffed-peppers-final.jpg)
+![Herbed Farro Stuffed Peppers](herbed-farro-stuffed-peppers-result.jpg)

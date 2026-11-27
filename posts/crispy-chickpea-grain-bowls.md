@@ -38,4 +38,4 @@ These bowls are built for leftovers. Roast a tray of chickpeas until they rattle
 
 ## Result!
 
-![Crispy Chickpea Grain Bowls](crispy-chickpea-grain-bowls-final.jpg)
+![Crispy Chickpea Grain Bowls](crispy-chickpea-grain-bowls-result.jpg)

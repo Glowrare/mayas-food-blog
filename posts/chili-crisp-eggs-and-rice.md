@@ -1,6 +1,6 @@
 ---
 title: 'Chili Crisp Eggs and Rice'
-image: 'chili-crisp-eggs-and-rice.jpg'
+image: 'chili-crisp-eggs-and-rice-lead.jpg'
 date: '2026-02-17'
 excerpt: Jammy chili-crisp fried eggs over leftover rice with cucumber and scallions. It is the ten-minute dinner I make when cooking anything else feels impossible.
 isFeatured: false
@@ -33,4 +33,4 @@ Leftover rice is the point, not a compromise. Chili crisp in the pan perfumes th
 
 ## Result!
 
-![Chili Crisp Eggs and Rice](chili-crisp-eggs-and-rice-final.jpg)
+![Chili Crisp Eggs and Rice](chili-crisp-eggs-and-rice-result.jpg)

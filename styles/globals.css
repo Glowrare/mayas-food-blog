@@ -8,39 +8,8 @@
   src: url('/fonts/roboto-variable.ttf') format('truetype');
 }
 
-@font-face {
-  font-family: 'Oswald';
-  font-style: normal;
-  font-weight: 700;
-  font-display: swap;
-  src: url('/fonts/oswald-700.ttf') format('truetype');
-}
-
 @theme {
-  --color-grey-50: hsl(39, 50%, 97%);
-  --color-grey-100: #f6eddc;
-  --color-grey-200: hsl(288, 10%, 74%);
-  --color-grey-300: hsl(39, 22%, 76%);
-  --color-grey-400: hsl(288, 10%, 48%);
-  --color-grey-500: hsl(288, 10%, 42%);
-  --color-grey-600: hsl(288, 12%, 34%);
-  --color-grey-700: hsl(288, 14%, 26%);
-  --color-grey-800: hsl(288, 16%, 20%);
-  --color-grey-900: #2b202e;
-
-  --color-primary-50: hsl(39, 40%, 92%);
-  --color-primary-100: hsl(288, 18%, 62%);
-  --color-primary-200: hsl(288, 22%, 48%);
-  --color-primary-300: hsl(288, 24%, 40%);
-  --color-primary-400: hsl(288, 26%, 32%);
-  --color-primary-500: hsl(288, 30%, 26%);
-  --color-primary-600: hsl(288, 28%, 20%);
-  --color-primary-700: #2b202e;
-
-  --color-success-100: #a2f0bc;
   --color-success-500: #12bd4b;
-
-  --color-error-100: #f1acc9;
   --color-error-500: #a10c4a;
 
   --color-brand: #392b3d;
@@ -52,19 +21,18 @@
   --font-editorial: Georgia, 'Times New Roman', serif;
 
   --font-sans: 'Roboto', sans-serif;
-  --font-display: 'Oswald', 'Roboto', sans-serif;
 }
 
 @layer base {
   body {
     background-color: var(--color-canvas);
-    @apply font-sans text-grey-900;
+    @apply font-sans text-ink;
   }
 
   h1,
   h2,
   h3 {
-    @apply font-display;
+    @apply font-editorial;
   }
 
   a {

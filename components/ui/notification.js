@@ -2,13 +2,13 @@ import ReactDOM from 'react-dom';
 import { cn } from '../../lib/utils';
 
 const tones = {
-  success: 'bg-success-500 text-grey-800',
-  error: 'bg-error-500 text-grey-100',
+  success: 'bg-success-500 text-canvas',
+  error: 'bg-error-500 text-canvas',
 };
 
 const Notification = (props) => {
   const { title, message, status } = props;
-  const tone = tones[status] ?? 'bg-grey-800 text-grey-100';
+  const tone = tones[status] ?? 'bg-brand text-canvas';
 
   return ReactDOM.createPortal(
     <div

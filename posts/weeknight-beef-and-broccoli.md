@@ -1,6 +1,6 @@
 ---
 title: 'Weeknight Beef and Broccoli'
-image: 'weeknight-beef-and-broccoli.jpg'
+image: 'weeknight-beef-and-broccoli-lead.jpg'
 date: '2026-03-31'
 excerpt: Thinly sliced flank steak, lots of broccoli, and a glossy garlic-soy sauce. Skip the takeout wait and keep the skillet hot so the beef sears instead of steams.
 isFeatured: false
@@ -36,4 +36,4 @@ Slice the steak against the grain while it is still a little cold so the pieces 
 
 ## Result!
 
-![Weeknight Beef and Broccoli](weeknight-beef-and-broccoli-final.jpg)
+![Weeknight Beef and Broccoli](weeknight-beef-and-broccoli-result.jpg)
